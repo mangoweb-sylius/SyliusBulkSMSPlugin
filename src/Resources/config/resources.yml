@@ -1,0 +1,7 @@
+sylius_resource:
+    resources:
+        mango_sylius.bulk_sms:
+            driver: doctrine/orm
+            classes:
+                model: MangoSylius\BulkSmsPlugin\Entity\BulkSms
+                form: MangoSylius\BulkSmsPlugin\Form\BulkSmsType
