@@ -1,7 +1,7 @@
 {
-	"name": "mangoweb-sylius/sylius-bulk-sms-plugin",
+	"name": "mangoweb-sylius/sylius-bulksms-plugin",
 	"type": "sylius-plugin",
-	"description": "Bulk sms plugin for Sylius",
+	"description": "BulkSMS plugin for Sylius",
 	"license": "MIT",
 	"require": {
 		"ext-curl": "*",
