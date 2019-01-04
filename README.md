@@ -3,17 +3,18 @@
         <img src="https://avatars0.githubusercontent.com/u/38423357?s=200&v=4"/>
     </a>
 </p>
-<h1 align="center">Sylius SMS Manager Plugin</h1>
+<h1 align="center">Sylius BulkSMS Plugin</h1>
 
 ## Features
 
-xxx
-
-* xxx
+* Use https://www.bulksms.com account to send SMS to customers
+* Inform your customers with a text message that the package has been sent
+* Custom text for every shipping method and language
+* Use variables to personalise the text
 
 ## Installation
 
-1. Run `$ composer require mangoweb-sylius/sylius-bulk-sms-plugin`.
+1. Run `$ composer require mangoweb-sylius/sylius-bulksms-plugin`.
 2. Register `\MangoSylius\BulkSmsPlugin\MangoSyliusBulkSmsPlugin` in your Kernel.
 3. Import `@MangoSyliusBulkSmsPlugin/Resources/config/resources.yml` in the config.yml.
 4. Your Entity `Channel` has to implement `\MangoSylius\BulkSmsPlugin\Model\BulkSmsChannelInterface`. You can use Trait `MangoSylius\BulkSmsPlugin\Model\BulkSmsChannelTrait`.
@@ -24,9 +25,9 @@ For guide to use your own entity see [Sylius docs - Customizing Models](https://
 
 ### Usage
 
-first setup sms manager in channel, than setup sms text in shipping method.
+First enter BulkSMS credentials and other parameters in channel settings, then enter SMS text for each shipping method. If the text is blank, no SMS will be sent.
 
-You can use variables in the SMS text.
+You can use the following variables in the text:
 
 ```
 {{ orderNumber }}

@@ -2,13 +2,13 @@ mango-sylius:
     admin:
         form:
             bulkSms:
-                infoText: Lorem ipsum (zkráceně lipsum) je označení pro standardní pseudolatinský text užívaný v grafickém designu a navrhování jako demonstrativní výplňový text při vytváření pracovních ukázek grafických návrhů (např. internetových stránek, rozvržení časopisů či všech druhů reklamních materiálů). Lipsum tak pracovně znázorňuje text v ukázkových maketách (tzv. mock-up) předtím, než bude do hotového návrhu vložen smysluplný obsah.
+                infoText: The text of the SMS is editable for each shipping method.
                 enabled: Enabled
                 token: Username / Token
                 tokenSecret: Password / Token secret
                 routingGroup: Routing group
                 messageClass: Message class
-                protocolId: Protocol id
+                protocolId: Protocol ID
                 sender: Sender
-                smsText: Sms text
-                availableVariables: Available SMS text variables
+                smsText: SMS text
+                availableVariables: Available variables for SMS text

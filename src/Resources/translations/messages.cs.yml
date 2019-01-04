@@ -1,0 +1,14 @@
+mango-sylius:
+    admin:
+        form:
+            bulkSms:
+                infoText: Text SMS lze upravit v editaci jednotlivých způsobů dopravy.
+                enabled: Zasílat
+                token: Uživatelské jméno / Token
+                tokenSecret: Heslo / Token secret
+                routingGroup: Routovací skupina
+                messageClass: Třída zprávy
+                protocolId: ID Protokolu
+                sender: Odesílatel
+                smsText: Text SMS
+                availableVariables: Dostupné proměnné do textu SMS
